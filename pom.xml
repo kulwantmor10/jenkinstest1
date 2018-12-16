@@ -44,16 +44,6 @@
           <name>Central</name>
           <url>http://repo1.maven.org/maven2</url>
 		</repository>
-        <releaserepository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://localhost:8081/repository/sample-release/</url>
-		</releaserepository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/repository/snapshots/</url>
-        </snapshotRepository>
     </distributionManagement>
   <dependencies>
   	<dependency>
