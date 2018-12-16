@@ -54,8 +54,8 @@
    <pluginRepositories>
 
     <pluginRepository>
-      <id>repo.jenkins-ci.org</id>
-      <url>http://repo.jenkins-ci.org/public/</url>
+      <id>central</id>
+      <url>http://central.maven.org/maven2/</url>
     </pluginRepository>
   </pluginRepositories>
 </project>
