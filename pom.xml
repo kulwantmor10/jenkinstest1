@@ -29,15 +29,10 @@
    <distributionManagement>
         <repository>
             <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://localhost:8081/repository/sample-release/</url>
+            <name>sample-release</name>
+            <url>http://localhost:8084/repository/sample-release/</url>
 		</repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/repository/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+     </distributionManagement>
   <dependencies>
   
   	<dependency>
